@@ -36,7 +36,7 @@ gulp.task('connect', function(){
 });
 
 gulp.task('html', function () {
-  gulp.src('./app/main.html')
+  gulp.src('./app/index.html')
     .pipe(connect.reload());
 });
 
